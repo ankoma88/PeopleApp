@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PeopleApp</string>
+    <string name="name">Name</string>
+    <string name="sex">Sex</string>
+    <string name="birth">22.11.1988</string>
+    <string name="death">10.05.2001</string>
+    <string name="birth_place">Liverpool</string>
+    <string name="death_place">NY</string>
+    <string name="death_location">22.453</string>
+    <string name="birth_location">12.675</string>
+    <string name="born">Born:</string>
+    <string name="died">Died:</string>
+</resources>

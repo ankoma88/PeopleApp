@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv_dialog_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/primary_light"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_avatar"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="fitCenter"
+                android:layout_margin="5dp"
+                fresco:placeholderImage="@drawable/ph_loading"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        tools:text="@string/name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/primary_dark" />
+
+                    <TextView
+                        android:id="@+id/tv_sex"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="end"
+                        android:layout_weight="1"
+                        tools:text="@string/sex"
+                        android:textAlignment="textEnd"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_born"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/born"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/cardview_dark_background" />
+
+                    <TextView
+                        android:id="@+id/tv_died"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/died"
+                        android:textAlignment="textEnd"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/cardview_dark_background" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_birthday"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/birth"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/cardview_dark_background" />
+
+                    <TextView
+                        android:id="@+id/tv_death_day"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/death"
+                        android:textAlignment="textEnd"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_birth_place"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/birth_place"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                    <TextView
+                        android:id="@+id/tv_death_place"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/death_place"
+                        android:textAlignment="textEnd"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/cardview_dark_background" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_birth_location"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/birth_location"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/cardview_dark_background" />
+
+                    <TextView
+                        android:id="@+id/tv_death_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="@string/death_location"
+                        android:textAlignment="textEnd"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/cardview_dark_background" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

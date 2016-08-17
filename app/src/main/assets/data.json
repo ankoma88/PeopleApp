@@ -1,0 +1,81 @@
+[
+
+    {
+      "firstName": "John",
+      "lastname": "Lennon",
+      "sex": "Male",
+      "portrait": "http://cdn.riffraf.net/wp-content/uploads/2013/10/John-Lennon.jpg",
+      "birth": "1940-10-09",
+      "birthPlace": "Liverpool, England, UK",
+      "birthLatitude": "53.4167",
+      "birthLongitude": "53.4167",
+      "death": "1980-12-08",
+      "deathPlace": "New York City, New York, US",
+      "deathLatitude": "40.7142",
+      "deathLongitude": "74.0064"
+    },
+    {
+      "firstName": "Paul",
+      "lastname": "McCartney",
+      "sex": "Male",
+      "portrait": "http://wttsfm.com/wp-content/uploads/2011/12/paul-mccartney.jpg",
+      "birth": "1942-06-18",
+      "birthPlace": "Liverpool, England, UK",
+      "birthLatitude": "53.4167",
+      "birthLongitude": "53.4167"
+    },
+    {
+      "firstName": "George",
+      "lastname": "Harrison",
+      "sex": "Male",
+      "portrait": "http://swotti.starmedia.com/tmp/swotti/cacheZ2VVCMDLIGHHCNJPC29URW50ZXJ0YWLUBWVUDC1NDXNPY0JHBMRZ/imggeorge%20harrison1.jpg",
+      "birth": "1943-02-25",
+      "birthPlace": "Liverpool, England, UK",
+      "birthLatitude": "53.4167",
+      "birthLongitude": "53.4167",
+      "death": "2001-11-29",
+      "deathPlace": "Los Angeles, California, US",
+      "deathLatitude": "34.0522",
+      "deathLongitude": "118.2428"
+    },
+    {
+      "firstName": "Ringo",
+      "lastname": "Starr",
+      "sex": "Male",
+      "portrait": "http://www.examiner.com/images/blog/EXID13613/images/ringo-starr.jpg",
+      "birth": "1940-07-07",
+      "birthPlace": "Liverpool, England, UK",
+      "birthLatitude": "53.4167",
+      "birthLongitude": "53.4167"
+    },
+    {
+      "firstName": "Yoko",
+      "lastname": "Ono",
+      "sex": "Female",
+      "portrait": "http://userserve-ak.last.fm/serve/252/124580.jpg",
+      "birth": "1933-02-18",
+      "birthPlace": "Tokyo, Japan",
+      "birthLatitude": "35.6833",
+      "birthLongitude": "139.7667"
+    },
+    {
+      "firstName": "Cynthia",
+      "lastname": "Powell",
+      "sex": "Female",
+      "portrait": "http://www.rollingstonesnet.com/images/Faithfull_1966.jpg",
+      "birth": "1939-09-10",
+      "birthPlace": "Blackpool, Lancashire, England, UK",
+      "birthLatitude": "53.8245",
+      "birthLongitude": "3.0222"
+    },
+    {
+      "firstName": "Pattie",
+      "lastname": "Boyd",
+      "sex": "Female",
+      "portrait": "http://thepastisunwritten.files.wordpress.com/2010/12/pattieboyd1.jpg",
+      "birth": "1944-03-17",
+      "birthPlace": "Taunton, Somerset, England, UK",
+      "birthLatitude": "51.0167",
+      "birthLongitude": "3.1000"
+    }
+  ]
